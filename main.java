@@ -1,5 +1,3 @@
-    
-    
     public class main {
         private String nombre;
         private String matricula;
@@ -141,7 +139,7 @@
         }
 
 
-        
+
 
     }
     
