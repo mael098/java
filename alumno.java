@@ -14,10 +14,10 @@ public class alumno {
   }
 
   public alumno(
-    String carrera,
-    String grupo,
     String numero,
     String name,
+    String carrera,
+    String grupo,
     double calificacion1,
     double calificacion2,
     double calificacion3
