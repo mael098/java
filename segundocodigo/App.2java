@@ -1,6 +1,11 @@
-public class app2{
-    index = new index();
+public class App2{
+
+    public App2(){
+        
+    }
+    
     public static void main(String[] args) {
+
         
     }
 

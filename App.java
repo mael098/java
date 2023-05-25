@@ -1,5 +1,4 @@
 import java.util.Scanner;
-
 public class App {
 
   public static void main(String[] args) {
@@ -44,6 +43,7 @@ public class App {
         System.out.println("1. Mostrar todos los alumnos");
         System.out.println("2. Buscar un alumno por número de cuenta");
         System.out.println("3. Salir");
+        System.out.println("4.mostrar calificaciones del alumnos");  
 
         int opcion = sc.nextInt();
         sc.nextLine();
@@ -78,6 +78,20 @@ public class App {
           default:
             System.out.println("Opción no válida.");
             break;
+
+          case 4:
+          System.out.println("ingrese el numero de cuenta del alumno");
+          String numero2 = sc.nextLine();
+          for (int i = 0; i < cantidad; i++) {
+            if (alumnos[i].getnumero().equals(numero2)) {
+              System.out.println(alumnos[i].getpromedio());
+              break;
+            }
+            if (i == cantidad - 1) {
+              System.out.println("No se encontró un alumno con ese número de cuenta.");
+            }
+          }
+          break;
         }
       }
     }

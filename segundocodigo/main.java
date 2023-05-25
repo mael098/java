@@ -134,6 +134,8 @@ package segundocodigo;
             System.out.println(alumno9.getInformacion());
             System.out.println(alumno10.getInformacion());
 
+            
+
 
 
 
