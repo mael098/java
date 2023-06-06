@@ -6,4 +6,9 @@ que tengan como datos de salida nombre,matricula,grupo,carrera,calificacion1,cal
 # integrare  una base de datos 
 
 
+implementar un abase de datos de js 
+
+
+
+
 
