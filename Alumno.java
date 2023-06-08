@@ -4,14 +4,9 @@ public class Alumno {
   private String numero;
   private String grupo;
   private String carrera;
-  private double calificacion1 = 0;
-  private double calificacion2 = 0;
-  private double calificacion3 = 0;
-
-  public Alumno(String numero, String name) {
-    this.numero = numero;
-    this.nombre = name;
-  }
+  private double calificacion1;
+  private double calificacion2;
+  private double calificacion3;
 
   public Alumno(
     String numero,
