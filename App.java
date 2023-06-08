@@ -91,7 +91,7 @@ public class App {
               System.out.println("No se encontró un alumno con ese número de cuenta.");
             }
           }
-          break;
+          break; 
         }
       }
     }
